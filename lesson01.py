@@ -99,13 +99,14 @@ new_list = list(my_str) # OR
 new_list = []
 for letter in my_str:
     new_list.append(letter)
+print(new_list)
 
 # Research two list methods from the python documentation and experiment
 # with their use.  NOTE! Some list methods will give you a new list,
 # but other list methods operate on the current list.
 new_list.append(5)
 new_list.extend([1, 2, 3, 4, 5, 6, 7])
-new_list.copy()
+second_list = new_list.copy()
 # hmmm, what's the difference between my_list.sort() and sorted(my_list)???
 
 # Print out the third letter of the list
@@ -121,6 +122,7 @@ my_dict["turtles"] = "no way"
 
 # Add a new item to the dictionary using a dictionary method
 my_dict.update({'boa constrictors': 2.4})
+print(my_dict)
 
 # Print out only how many dogs there are
 print(my_dict["dogs"])
