@@ -1,5 +1,5 @@
 #Copy your favorite song lyrics into a string variable.  Determine all of the unique words in the song and the number of times they occur.
-# four different solutions shown below
+# five different solutions shown below
 
 #######################  SOLUTION 1 ##########################################
 # # define a function to do the work for us
@@ -62,7 +62,11 @@ def count_words_three(input_str: str) -> dict[str, int]:
     cleaned_list = input_str.replace(",", "").lower().split()
     return dict(Counter(cleaned_list))
 
+word_counts = count_words_three(input_str)
+print(word_counts)
 
+
+####################### SOLUTION 5 ############################################
 def count_words_five(input_str):
     cleaned_list = input_str.replace(",", "").lower().split()
 
@@ -78,5 +82,5 @@ def count_words_five(input_str):
     
     return result
 
-word_counts = count_words_three(input_str)
+word_counts = count_words_five(input_str)
 print(word_counts)
