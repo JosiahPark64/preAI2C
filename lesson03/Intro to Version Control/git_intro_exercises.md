@@ -22,7 +22,7 @@
 
 ## Hands-On #1 Exercises
 
-This guide walks you through the basic Git workflow: initializing a repository, making changes, staging, committing, and viewing history.  This uses a series of Linux commands to manipulate the files.  If you are not familiar with Linux commands, you may want to seek out a Linux primer or cheatsheet.
+This guide walks you through the basic Git workflow: initializing a repository, making changes, staging, committing, and viewing history.  This uses a series of Linux commands to manipulate the files.  If you are not familiar with Linux commands, you may want to seek out a Linux primer or cheatsheet.  (Example:  https://linuxjourney.com/)
 
 ---
 ### Exercise 0:
@@ -204,4 +204,4 @@ git diff --cached
 
 Sometimes people do things they don't mean to and commit bad changes.  Try to revert one of your changes and go back to an old commit.
 
-For extra double bonus points, start making changes off of that old commit and see what happens with thigns like `git log`.
+For extra double bonus points, start making changes off of that old commit and see what happens with things like `git log`.
