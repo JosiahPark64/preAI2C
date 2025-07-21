@@ -81,6 +81,71 @@ Clone the repository at `https://github.com/shafe123/AI2C-python-files.git`.
 
 ## Hands-On #2
 
+This series of exercises helps you understand how to create, read, append, and handle files in Python using both built-in `open()` and the `pathlib` module.
+
+---
+
+### Exercise 10: Create and Write to a File
+
+**Goal**: Create a file called `log.txt` and write a single line to it.
+
+✅ *Check*: Open `log.txt` and verify the line was written.
+
+---
+
+### Exercise 11: Read the File
+
+**Goal**: Read and print the contents of `log.txt`.
+
+✅ *Check*: Ensure the output matches the line you wrote previously.
+
+---
+
+### Exercise 12: Append a Line to the File
+
+**Goal**: Add another line to `log.txt` without removing the original content.
+
+✅ *Check*: Re-read the file and confirm both lines are present.
+
+---
+
+### Exercise 13: Write Multiple Lines
+
+**Goal**: Write multiple lines to a new file using a list.
+
+✅ *Check*: Open `multi.txt` and confirm all three lines are present.
+
+---
+
+### Exercise 14: Read a File Line by Line
+
+**Goal**: Read `multi.txt` and print each line one at a time.
+
+✅ *Check*: Each line should print without extra blank lines.
+
+---
+
+### Exercise 15: Count Lines in a File
+
+**Goal**: Count how many lines are in `multi.txt`.
+
+✅ *Check*: The count should be 3 if using the previous file.
+
+---
+
+### Exercise 16: Read a File Safely
+
+**Goal**: Try reading a file that may not exist and handle the error.
+
+✅ *Check*: Make sure the program doesn't crash if the file is missing.
+
+---
+
+### Exercise 17: Use `pathlib` to Read/Write
+
+**Goal**: Use `pathlib.Path` instead of `open()`.
+
+✅ *Check*: The file should contain the message, and it should print to the screen.
 
 
 ## Stretch Goals
