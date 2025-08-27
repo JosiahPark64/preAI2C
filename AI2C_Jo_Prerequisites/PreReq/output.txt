@@ -1,0 +1,9 @@
+Max value is 86Min value is 12Avg value is 51.7Max value is 86
+Min value is 12
+Avg value is 51.7
+Max value is 86
+Min value is 12
+Avg value is 51.7
+Max value is 86
+Min value is 12
+Avg value is 51.7
